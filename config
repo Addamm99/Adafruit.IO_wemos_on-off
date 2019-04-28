@@ -1,0 +1,8 @@
+#define IO_USERNAME    "Your username"
+#define IO_KEY         "Your Adafruit.IO key"
+
+#define WIFI_SSID       "Wifi_ssid"
+#define WIFI_PASS       "Wifi_pass"
+
+#include "AdafruitIO_WiFi.h"
+AdafruitIO_WiFi io(IO_USERNAME, IO_KEY, WIFI_SSID, WIFI_PASS);
